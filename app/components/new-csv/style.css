@@ -36,9 +36,24 @@ table th:not(:first-child) {
 }
 
 button {
-  margin-bottom: 30px;
+  margin: 0 0 30px 10px;
 }
 
-button {
-  margin-left: 10px;
+@media screen and (max-width: 700px) {
+  .table-container {
+    min-width: 100%;
+  }
+  
+  table th {
+    min-width: 30px;
+  }
+  
+  button {
+    display: block;
+    margin: 20px 0 30px 0;
+  }
+  
+  p {
+    line-height: 2;
+  }
 }
