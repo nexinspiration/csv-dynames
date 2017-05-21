@@ -1,0 +1,17 @@
+&, &.primary:hover {
+  background-color: #fff;
+  color: #e91e63;
+  border: 1px solid #e91e63;
+  padding: 5px 30px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+&.primary, &:hover {
+  background-color: #e91e63;
+  color: #fff;
+}
+
+&:focus {
+  outline: none;
+}

@@ -1,0 +1,15 @@
+div {
+  display: flex;
+  border: 1px solid #e91e63;
+  border-radius: 3px;
+  height: 240px;
+  width: 240px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  color: #e91e63;
+}
+
+div:hover {
+  box-shadow: 1px 1px 5px 0px #eee;
+}

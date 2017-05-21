@@ -1,0 +1,29 @@
+@import "pod-styles";
+
+body {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 15px;
+  color: #333;
+}
+
+.application-bg {
+  background-color: #fff;
+}
+
+.application-container {
+  margin: 30px;
+}
+
+ul, div, p, li, body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: #e91e63;
+  text-decoration: none;
+}
+
+a:focus, a:hover {
+  color: #e91e63;
+}

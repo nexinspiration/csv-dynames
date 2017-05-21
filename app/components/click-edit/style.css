@@ -1,0 +1,19 @@
+& {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+&.edit-mode {
+  padding: 5px 20px;
+}
+
+input {
+  color: #e91e63;
+  border: 1px solid #e91e63;
+  font-size: 15px;
+  padding: 5px;
+}
+
+input:focus {
+  outline: none;
+}

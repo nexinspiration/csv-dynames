@@ -1,0 +1,35 @@
+<b>Actions:</b>
+{{btn-comp name="Save" action=(action "save")}}
+{{btn-comp name="Add Row" action=(action "add" "row")}}
+{{btn-comp name="Add Column" action=(action "add" "column")}}
+
+<div class="table-container">
+  <table cellpadding="0" cellspacing="0">
+    <thead>
+      <tr>
+        {{#each headerColumns as |header|}}
+          {{click-edit tagName="th" default=header}}
+        {{/each}}
+      </tr>
+    </thead>
+    <tbody>
+      {{#each rowArray as |row|}}
+        <tr>
+          {{#each headerColumns as |header|}}
+            {{click-edit tagName="td" default="dummy"}}
+          {{/each}}
+        </tr>
+      {{/each}}
+    </tbody>
+  </table>
+</div>
+
+<h3>Note:</h3>
+
+<p>
+  - By Default two columns Name and Email are created, You can edit the fields by clicking on them.
+</p>
+
+<p>
+  - You can use the <b>Add button</b> to add a new row or column
+</p>

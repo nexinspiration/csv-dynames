@@ -1,12 +1,23 @@
 /*jshint node:true*/
 /* global require, module */
 var EmberApp = require('ember-cli/lib/broccoli/ember-app');
+var CssImport = require('postcss-import');
+
 
 module.exports = function(defaults) {
   var app = new EmberApp(defaults, {
-    // Add options here
+    postcssOptions: {
+      compile: {
+        enabled: true,
+        plugins: [{
+          module: CssImport,
+        }]
+      }
+    }
   });
 
+  app.import('bower_components/file-saver/FileSaver.js');
+  
   // Use `app.import` to add additional libraries to the generated
   // output files.
   //
