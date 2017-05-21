@@ -1,6 +1,7 @@
 # csv-dynames
-A simple CSV creator
+A simple CSV creator or Generator
 
+Vist the app @ [Csv-Dynames](https://nexinspiration.github.io/csv-dynames/#/)
 
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
@@ -17,7 +18,7 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
+* `git clone https://github.com/nexinspiration/csv-dynames.git` this repository
 * `cd csv-dynames`
 * `npm install`
 * `bower install`
@@ -43,7 +44,7 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Deploying
 
-Specify what it takes to deploy your app.
+* Uses [ember-cli-github-pages](https://github.com/poetic/ember-cli-github-pages) to deploy
 
 ## Further Reading / Useful Links
 
@@ -52,4 +53,3 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
->>>>>>> Initial Commit from Ember CLI v2.10.0
